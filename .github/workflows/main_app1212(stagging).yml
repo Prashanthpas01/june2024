@@ -69,7 +69,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'app1212'
+          app-name: 'app1212/stagging'
           slot-name: 'stagging'
           package: .
           
